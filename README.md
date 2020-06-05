@@ -8,10 +8,9 @@ Data for both datasets is available at :
 
 The code is structured in two files - one for each dataset. Household Data Conversion convert household data into R format. 
 It is much smaller in size (around 76000 households) and has fewer variables. Individual Data Conversion converts individual 
-dataset into R format. It is much bigger (10% of the Population - approximately 300k people). However, the automatic code generates 
-a lot of empty variables as CSPro automaticall assumes household size that is much larger than any household in this dataset. 
-For this reason Data Cleaning for Individual Dataset cleans this. In addition, it also creates a couple of tables on some demographic 
-characteristics. 
+dataset into R format. It is much bigger (10% of the Population - approximately 300k people). 
+
+However, the automatic code generates  a lot of empty variables as CSPro automaticall assumes household size that is much larger than any household in this dataset. For this reason Data Cleaning for Individual Dataset cleans this. In addition, it also creates a couple of tables on some demographic characteristics. Household exploration similarly creates a couple of tables on household level variables. 
 
 Marz_kod is a dataset which shows how marz (region) numbers were replaced with regional names. 
 
